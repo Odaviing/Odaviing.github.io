@@ -1,0 +1,126 @@
+ .u-section-1 {
+  background-image: url("images/f3ec6fd7c8883f54b7403e43a45022ef.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    background-size: 125%;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    background-size: 145%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 401px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 63.63% 73.36%;
+    background-size: auto 145%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 267px;
+  }
+} .u-section-2 {
+  min-height: 1190px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 28px auto 0;
+}
+
+.u-section-2 .u-image-1 {
+  height: 1040px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 20px auto 10px;
+} .u-section-3 {
+  min-height: 953px;
+}
+
+.u-section-3 .u-image-1 {
+  height: 906px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-3 .u-text-1 {
+  width: 241px;
+  margin: 23px auto 0;
+} .u-section-4 {
+  min-height: 1451px;
+}
+
+.u-section-4 .u-image-1 {
+  height: 1336px;
+  margin-top: 13px;
+  margin-bottom: 0;
+}
+
+.u-section-4 .u-text-1 {
+  margin: 30px auto 36px;
+} .u-section-5 {
+  min-height: 1042px;
+}
+
+.u-section-5 .u-image-1 {
+  height: 878px;
+  margin-top: -17px;
+  margin-bottom: 0;
+}
+
+.u-section-5 .u-text-1 {
+  margin: 22px auto 60px;
+} .u-section-6 {
+  min-height: 1005px;
+}
+
+.u-section-6 .u-image-1 {
+  height: 946px;
+  margin-top: -102px;
+  margin-bottom: 0;
+}
+
+.u-section-6 .u-text-1 {
+  margin: 25px auto 0;
+}
+
+.u-section-6 .u-btn-1 {
+  transition-duration: 0.5s;
+  border-style: none;
+  margin: 25px auto 30px;
+}
+
+.u-section-6 .u-btn-1,
+.u-section-6 .u-btn-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-6 .u-btn-1.u-btn-1.u-btn-1:hover {
+  border-radius: 10px !important;
+}
+
+.u-section-6 .u-btn-1.u-btn-1.u-btn-1.hover {
+  border-radius: 10px !important;
+}
+
+form {
+position: relative;
+left: 47%;
+height: 40px;
+width: 100px;
+}
