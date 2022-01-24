@@ -15,9 +15,11 @@
     <meta name="generator" content="Nicepage 4.3.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
-
-
-
+<script>
+function myFunction() {
+  alert("The art of Seb Mckinnon");
+}
+</script>
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -71,6 +73,8 @@
                             <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" title="Magic: The Gathering" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2">Magic: The Gathering</a></i>.<br>Seb McKinnon was born in&nbsp;<a href="https://en.wikipedia.org/wiki/Montreal" title="Montreal" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3">Montreal</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/Quebec" title="Quebec" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4">Quebec</a>, growing up in a creative family with four younger brothers.&nbsp;He attended&nbsp;<a href="https://en.wikipedia.org/wiki/Dawson_College" title="Dawson College" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-5">Dawson College</a>, where he received a degree in illustration.<br>For some time after college, McKinnon worked for the video game company&nbsp;<a href="https://en.wikipedia.org/wiki/Ubisoft" title="Ubisoft" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-6">Ubisoft</a>&nbsp;as a&nbsp;<a href="https://en.wikipedia.org/wiki/Video_game_design" title="Video game design" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-7">game designer</a>.&nbsp;At Ubisoft, he was a part of the concept team for the tactical shooter&nbsp;<a href="https://en.wikipedia.org/wiki/Tom_Clancy%27s_Rainbow_Six_Siege" title="Tom Clancy's Rainbow Six Siege" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-8">Rainbow Six Siege</a>. In 2012, McKinnon received his first commission from&nbsp;<a href="https://en.wikipedia.org/wiki/Wizards_of_the_Coast" title="Wizards of the Coast" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-9">Wizards of the Coast</a>&nbsp;to illustrate a card for the&nbsp;<i>
                             <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering_core_sets,_2009%E2%80%932015#Magic_2013" title="Magic: The Gathering core sets, 2009–2015" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-10">Magic 2013</a></i>&nbsp;core set of&nbsp;<i>Magic: The Gathering</i>.&nbsp;He has since provided art for more than 100&nbsp;<i>Magic: The Gathering</i>&nbsp;cards, having gained a reputation within the&nbsp;<i>Magic</i>&nbsp;community for his wistful, dreamlike compositions. Aside from illustration work, McKinnon started a film production company, Five Knights Productions, with his brother, Ben. In 2013, they released&nbsp;<i>Kin</i>, a short film which went on to win the Best Cinematography awards at both the Montreal Fantasia Film Festival and the Cyprus International Film Festival.&nbsp;In 2015, the two McKinnon brothers completed&nbsp;<i>Salvage</i>&nbsp;and&nbsp;<i>Requiem</i>, two more short films set in the same&nbsp;<i>
                             <a href="https://en.wikipedia.org/wiki/Kin_Fables" title="Kin Fables" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-11">Kin Fables</a></i>&nbsp;universe.&nbsp;After Ben died in 2016, Seb and his brother Liam started work on&nbsp;<i>Kin Fables: The Stolen Child</i>, a&nbsp;<i>Kin Fables</i>&nbsp;feature film in honor of his brother.&nbsp;Seb has run two successful&nbsp;<a href="https://en.wikipedia.org/wiki/Kickstarter" title="Kickstarter" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-12">Kickstarter</a>&nbsp;projects to fund&nbsp;<i>The Stolen Child</i>, offering playmats featuring his&nbsp;<i>Magic: The Gathering</i>&nbsp;art as compensation for donations. In addition to digital illustration and filmmaking, Seb McKinnon produces music under the name&nbsp;<i>CLANN</i>.&nbsp;Much of the music in the&nbsp;<i>Kin Fables</i>&nbsp;films was made by McKinnon using the&nbsp;<a href="https://en.wikipedia.org/wiki/Logic_Pro" title="Logic Pro" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-13">Logic Pro</a>&nbsp;software.
+			<button onclick="myFunction()">Site's title</button>
+
                         </span>
                         <br>
                       </p>
@@ -80,6 +84,36 @@
               </div>
             </div>
           </div>
+<p class="u-text u-text-2">
+          <script>
+            var chr = -1;
+            var txt = 'Created by Odaviing'
+            var l = txt.length
+            var p = "_"
+            function changetext()
+            {
+            chr++;
+            t = document.all["text"].innerHTML
+            tt = t.substring(0,t.length-p.length)
+            if(txt.charAt(chr)!="<")
+            {
+            document.all["text"].innerHTML= tt + txt.charAt(chr) + p
+            }
+            else {
+            document.all["text"].innerHTML= tt + txt.substring(chr, chr+4) + p
+            chr=chr+3
+            }
+            setTimeout("changetext()", 90)
+            }
+            function str(num) {
+            var s = ""
+            for(i=0; i<num; i++)
+            { s = s + " " }
+            return s }
+          </script>            
+            <body onload="changetext()">
+            <font id="text"></font>
+        </p>
         </div>
       </div>
 
